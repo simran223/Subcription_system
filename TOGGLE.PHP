@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		
+		h1 {
+        color: green;
+    }
+           
+    /* toggle in label designing */
+    .toggle {
+        position : relative ;
+        display : inline-block;
+        width : fit-content;
+        height : 52px;
+        background-color: red;
+        border-radius: 30px;
+        border: 2px solid gray;
+    }
+           
+    /* After slide changes */
+    .toggle:after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: gray;
+        top: 1px;
+        left: 1px;
+        transition:  all 0.5s;
+    }
+           
+    /* Toggle text */
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+           
+    /* Checkbox checked effect */
+    .checkbox:checked + .toggle::after {
+        left : 49px;
+    }
+           
+    /* Checkbox checked toggle label bg color */
+    .checkbox:checked + .toggle {
+        background-color: green;
+    }
+           
+    /* Checkbox vanished */
+    .checkbox {
+        display : none;
+    }
+	</style>
+</head>
+<body>
+<input type="checkbox" id="switch"
+                    class="checkbox" />
+        <label for="switch" class="toggle">
+             
+ 
+<p>Monthly    Yearly</p>
+</body>
+</html>

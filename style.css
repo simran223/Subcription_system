@@ -1,0 +1,59 @@
+body{
+  background-color: midnightblue;
+}
+form{
+  align-content: center;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 50px;
+  border: black;  
+  border-radius: 20px;
+
+}
+input{
+  height: 17px;
+  width: 200px;
+  padding: 4px;
+}
+label{
+  font-size: small;
+}
+h3{
+  text-align: center;
+}
+
+table,tr,th,td{
+  border: 0px;
+  padding: 10px;
+}
+
+.box{
+  padding: 20px;
+  background-color: slateblue;
+  color: white;
+}
+.box:hover{
+  padding: 20px;
+  background-color: blue;
+  color: white;
+}
+.active {
+  background-color: midnightblue;
+}
+
+.change
+{
+  color: darkblue;
+}
+
+div{
+  background-color: white;
+}
+
+button{
+  background-color: midnightblue;
+  color: white;
+  width: 250px;
+  padding: 10px;
+}
